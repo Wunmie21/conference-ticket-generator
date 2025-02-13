@@ -1,0 +1,252 @@
+
+.selection-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 3rem;
+  gap: 2rem;
+  margin: 2.5rem auto 0 auto;
+  width: 43rem;
+  height: auto;
+  background: #041e23;
+  border: 1px solid #0e464f;
+  border-radius: 40px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* .ticket-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+} */
+
+/* .selection-header {
+  display: flex;
+  flex-direction: column;
+} */
+
+.selection-header {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  gap: 12px;
+  /* margin: 0 auto; */
+  width: 37rem;
+  /* height: 48px; */
+  flex: none;
+  order: 0;
+  /* align-self: stretch; */
+  flex-grow: 0;
+}
+
+.selection-inner-line {
+  width: 100%;
+  height: 0.25rem;
+  background-color: #0E464F;
+  /* margin-bottom: 0; */
+}
+
+.selection-progress {
+  width: 50%;
+  height: 0.25rem;
+  background-color: #24A0B5;
+}
+
+.selection-inner-con {
+  display: flex;
+  font-display: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.selection-title {
+  /* Section Title */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  gap: 8px;
+  
+  width: 556px;
+  height: 200px;
+
+  background: radial-gradient(
+      103.64% 57.39% at 14.02% 32.06%,
+      rgba(36, 160, 181, 0.2) 0%,
+      rgba(36, 160, 181, 0) 100%
+    )
+    rgba(10, 12, 17, 0.1);
+  border-width: 0px 2px 2px 2px;
+  border-style: solid;
+  border-color: #07373f;
+  backdrop-filter: blur(7px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 24px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.selection-title h1 {
+  font-weight: 700;
+}
+
+.progress-bar {
+  /* Progress container */
+
+  width: 604px;
+  height: 4px;
+
+  background: #0e464f;
+  border-radius: 5px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.ticket-grid-con {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-self: start;
+  align-items: start;
+}
+.ticket-grid {
+  /* Input */
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+
+  /* width: 556px;
+height: 142px; */
+
+  background: #052228;
+  border: 1px solid #07373f;
+  border-radius: 24px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.ticket-info {
+  font-weight: normal;
+}
+
+.ticket-card.selected {
+  background-color: #12464e;
+}
+
+.ticket-card {
+  /* Radio 4 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px;
+  gap: 12px;
+
+  background-color: transparent;
+
+  width: 10rem;
+  height: auto;
+  border: 1px solid #197686;
+  border-radius: 12px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.selection-btn-con {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.selection-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 8px;
+
+  width: 266px;
+  height: 48px;
+
+  border: 1px solid #24a0b5;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.selection-btn.cancel {
+  border: 1px solid #24a0b5;
+}
+
+.selection-btn.next {
+  background: #24a0b5;
+}
+
+.selection-quantity {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 0.5rem;
+}
+
+.selection-dropdown {
+  /* Select */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 8px;
+
+  width: 35rem;
+  height: 3rem;
+
+  border: 1px solid #07373f;
+  border-radius: 12px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.selection-dropdown option {
+  width: 2rem;
+}

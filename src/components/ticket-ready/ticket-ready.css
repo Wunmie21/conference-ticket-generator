@@ -1,0 +1,48 @@
+
+.ticket-ready-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+  }
+  
+  .ticket-ready-card {
+    /* background: white; */
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    /* margin-top: 2rem; */
+  }
+  
+  .ticket-ready-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .attendee-info {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .ticket-qr {
+    width: 120px;
+    height: 120px;
+    background: #f1f5f9;
+    display: grid;
+    place-items: center;
+    margin: 1rem 0;
+  }
+  
+  .ticket-ready-footer {
+    border-top: 2px solid #e2e8f0;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

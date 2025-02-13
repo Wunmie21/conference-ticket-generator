@@ -1,0 +1,15 @@
+.header-con {
+  /* Header */
+  box-sizing: border-box;
+  /* gap: 570px; */
+
+  /* position: absolute; */
+  /* left: calc(50% - 1200px / 2); */
+  /* top: 24px; */
+  width: 75rem;
+
+  border: 1px solid #197686;
+  backdrop-filter: blur(2px);
+  border-radius: 24px;
+  /* margin: 0 auto; */
+}

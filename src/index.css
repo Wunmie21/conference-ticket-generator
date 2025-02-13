@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-bg: #02191D;
+  --color-white-text: #FFFFFF;
+  --color-btn-bg-blue: #197686;
+  --color-btn: #0E464F;
+  --color-primary-bg: #02191D;
+}
+
+body {
+   margin: 0;
+   background-color: var(--color-primary-bg) !important;
+    font-family: 'Jeju Myeongjo', serif !important;
+}
+
+
+
