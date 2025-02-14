@@ -11,8 +11,17 @@
 body {
    margin: 0;
    background-color: var(--color-primary-bg) !important;
-    font-family: 'Jeju Myeongjo', serif !important;
+   font-family: "Roboto", sans-serif !important;
 }
 
 
+@font-face {
+  font-family: 'JejuMyeongjo';
+  src: url('/fonts/JejuMyeongjo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+nav a, .selection-header h2, header button{
+  font-family: 'JejuMyeongjo', serif;
+}
