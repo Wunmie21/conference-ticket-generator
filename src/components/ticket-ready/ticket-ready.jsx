@@ -1,9 +1,9 @@
-// import { useState } from "react";
+
 import './ticket-ready.css';
 import { useForm } from '../context/formContext';
 
 export default function TicketReady() {
-  // const attendeeData = JSON.parse(localStorage.getItem("attendeeData"));
+
   const { formData } = useForm();
 
   return (
@@ -78,17 +78,8 @@ export default function TicketReady() {
               </div>
             </div>
 
-            {/* <div className='event-details'>
-              <p className='event-location'>Lagos, Nigeria</p>
-              <p className='event-date'>March 15, 2025 | 7:00 PM</p>
-              <div className='ticket-qr'>QR CODE PLACEHOLDER</div>
-            </div> */}
           </div>
           
-          <div className='ticket-ready-footer'>
-            {/* <p>Present this ticket at entry</p> */}
-            {/* <div className='powered-by'>Powered by Bidee</div> */}
-          </div>
         </div>
       </div>
     </div>
